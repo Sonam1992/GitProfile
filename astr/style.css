@@ -1,0 +1,284 @@
+/* hero background image */
+.bgimage {
+  height: 80vh;
+  background: url("images/Background.png");
+  background-size: cover;
+  position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #000000;
+}
+.hero_desc {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #000000;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.navbar-brand,
+.nav-item .nav-link,
+.nav-item .btn {
+  /* color: #fff; */
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  /* color: #fff; */
+  color: gray;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .btn:hover {
+  /* color: #fff; */
+  color: gray;
+}
+
+/* about section image css */
+.imageAboutPage {
+  width: 100%;
+  top: 50px;
+}
+
+/* Contact Me */
+
+.Contact_.card {
+  height: 300px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.Contact_:hover {
+  border: 3px solid #000000;
+}
+
+/* Detailed Project */
+
+.projectText.card {
+  height: 100%;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.projectText:hover {
+  border: 3px solid #000000;
+}
+h6 {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Download Resume Function */
+.download.card {
+  height: 200px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.download:hover {
+  border: 3px solid #ffffff;
+}
+
+.download p {
+  text-align: center;
+}
+/* Upload Section Styling  */
+.uploadOptions.card {
+  height: 100%;
+  cursor: pointer;
+}
+/* services section css */
+.servicesText.card {
+  height: 100%;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.serviceIcon {
+  font-size: 50px;
+  text-align: left;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+.card-title2 {
+  text-align: left;
+}
+.card:hover .servicesIcon {
+  color: green;
+}
+.servicesText:hover {
+  border: 3px solid #000000;
+}
+
+/* .card:hover {
+  border: 3px solid #000000;
+} */
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: #000000;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 25px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-youtube:hover {
+  color: #ffffff;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+/* asdasdasdasasasasasasasasasasasasasasasasasasasasasasasas */
+#footer {
+  background-color: #808080;
+  text-align: center;
+  min-height: 40px;
+  max-height: 40px;
+}
+
+#footer a {
+  /* color: red; */
+  padding-left: 10px;
+}
+
+/* spacing on all sections */
+#about,
+#Uploaddata,
+#portfolio,
+#contact,
+#SignIn {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  color: #000000;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+
+.card-body {
+  font-size: 0.8em;
+  flex-wrap: wrap;
+}
+.upload-title {
+  /* color: gray; */
+  text-align: center;
+  font-size: 1.5em;
+  padding: auto;
+}
+
+.card-body select {
+  width: 100%;
+  text-align: center;
+  /* background-color: blue; */
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  background-color: #7f8c8d;
+  border-radius: 15px;
+  /* border-width: thick; */
+}
+input {
+  width: 100%;
+  text-align: center;
+  /* background-color: blue; */
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  background-color: #7f8c8d;
+  border-radius: 15px;
+  /* border-width: thick; */
+}
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  border-width: thick;
+  /* margin-left: 150px; */
+  background-color: #495453;
+  width: 100%;
+}
+
+.form-body {
+  width: 50%;
+  align-self: center;
+  text-align: center;
+}
+form label {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  padding: auto;
+}
+
+form input {
+  width: 100%;
+  text-align: center;
+  /* background-color: blue; */
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  /* cursor: pointer; */
+  background-color: #7f8c8d;
+  border-radius: 15px;
+  /* border-width: thick; */
+}
+/* form .button {
+  width: 50%;
+  text-align: center;
+} */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+th {
+  background: #000000;
+  color: #ffffff;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 20px;
+}
+
+tr:nth-child(even) {
+  background: #eeeeee;
+}
